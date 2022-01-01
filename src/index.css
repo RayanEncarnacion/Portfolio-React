@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Source+Sans+Pro&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+}
+
+*,
+* + *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #1a1a1a;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bitter", serif;
+}
+
+a {
+  color: #f7f7f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.accent {
+  color: #4f83b0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #menu-overlay {
+    display: none;
+  }
+}
