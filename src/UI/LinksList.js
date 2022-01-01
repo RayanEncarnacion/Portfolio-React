@@ -21,16 +21,18 @@ const LinksList = ({ linksArray, footer, navigation, menu, onClick }) => {
     }
     // CV obj has fileName
     if (link.fileName) {
-      <a
-        onClick={onClick}
-        onMouseEnter={() => setIsHover(true)}
-        onMouseLeave={() => setIsHover(false)}
-        key={link.id}
-        href={link.href}
-        download={link.fileName}
-      >
-        {link.text}
-      </a>;
+      return (
+        <a
+          onClick={onClick}
+          onMouseEnter={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
+          key={link.id}
+          href={link.href}
+          download={link.fileName}
+        >
+          {link.text}
+        </a>
+      );
     }
     // Basic anchor
     return (
