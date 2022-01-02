@@ -16,7 +16,11 @@ const ProjectCard = ({
         <AccentAnchor href={live} target="_blank" rel="noopener noreferrer">
           See Live
         </AccentAnchor>
-        <AccentAnchor href={repository} target="_blank">
+        <AccentAnchor
+          href={repository}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           See Code
         </AccentAnchor>
       </Fragment>

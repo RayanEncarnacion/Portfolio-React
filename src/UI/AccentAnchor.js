@@ -1,7 +1,16 @@
 import { useState } from "react";
 import StyledAccentAnchor from "./Styled/StyledAccentAnchor";
 
-const AccentAnchor = ({ children, onClick, accent, light, as, href }) => {
+const AccentAnchor = ({
+  children,
+  onClick,
+  accent,
+  light,
+  as,
+  href,
+  rel,
+  target,
+}) => {
   const [isHover, setIsHover] = useState(false);
 
   return (
@@ -13,6 +22,8 @@ const AccentAnchor = ({ children, onClick, accent, light, as, href }) => {
       accent={accent}
       light={light}
       href={href}
+      rel={rel}
+      target={target}
     >
       {children}
     </StyledAccentAnchor>
