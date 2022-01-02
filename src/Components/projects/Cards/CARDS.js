@@ -35,7 +35,7 @@ export default [
     img: SIimg,
     description:
       "Solve It is an application created to solve the problems in a company working with the Bug Tracking system. The Engineers need to create tickets for every problem/bug and the Developers must solve them.",
-    tech: [HTML, CSS, Tailwind, JavaScript],
+    tech: [HTML, Tailwind, JavaScript],
     buttons: 2,
     live: "https://solveit-project.netlify.app/",
     repository: "https://github.com/RayanEncarnacion/Solve-It",
