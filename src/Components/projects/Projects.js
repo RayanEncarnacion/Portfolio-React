@@ -16,7 +16,7 @@ const Projects = () => {
       <h3>See my projects Live or the Code Repository</h3>
       <CardsContainer cards={ProjectCards} />
       <MiniProjectsContainer>
-        <p className="accent">Main Projects</p>
+        <p className="accent">Other Projects</p>
         <h3>See my projects Live or the Code Repository</h3>
         <CardsContainer mini={true} cards={MiniProjectsCards} />
       </MiniProjectsContainer>
