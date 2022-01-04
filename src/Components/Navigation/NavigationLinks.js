@@ -1,4 +1,4 @@
-import CV from "../../assets/RayanEncarnaciónCV.pdf";
+import CV from "../../assets/RayanEncarnaciónResume.pdf";
 
 export default [
   {
