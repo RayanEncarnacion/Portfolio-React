@@ -5,6 +5,7 @@ import PGimg from "../../../assets/images/pig-game-lg-1.png";
 import DHimg from "../../../assets/images/dreamed-lg-1.png";
 import TDimg from "../../../assets/images/todo-lg-1.png";
 import FDimg from "../../../assets/images/fooders-lg-1.png";
+import Vimg from "../../../assets/images/validation-lg-1.png";
 import HTML from "../../../assets/SkillsLogos/html-5-logo-svgrepo-com.svg";
 import CSS from "../../../assets/SkillsLogos/css-3-logo-svgrepo-com.svg";
 import Bootstrap from "../../../assets/SkillsLogos/bootstrap-4-logo-svgrepo-com.svg";
@@ -83,6 +84,16 @@ export const MiniProjectsCards = [
     buttons: 2,
     live: "https://rayan-pig-game.netlify.app/",
     repository: "https://github.com/RayanEncarnacion/React-Pig-Game",
+  },
+  {
+    title: "Form Validation",
+    img: Vimg,
+    description:
+      "This is just a practice project to validate data provided by the user trough a form while maintaining a nice UX using yup (library) and useForm (Hook).",
+    tech: [HTML, CSS, React],
+    buttons: 2,
+    live: "https://rayan-validation.netlify.app/",
+    repository: "https://github.com/RayanEncarnacion/FormValidation-react",
   },
   {
     title: "Dreamed House",
