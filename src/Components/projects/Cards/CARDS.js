@@ -4,6 +4,7 @@ import Bimg from "../../../assets/images/biblion-lg-1.png";
 import PGimg from "../../../assets/images/pig-game-lg-1.png";
 import DHimg from "../../../assets/images/dreamed-lg-1.png";
 import TDimg from "../../../assets/images/todo-lg-1.png";
+import FDimg from "../../../assets/images/fooders-lg-1.png";
 import HTML from "../../../assets/SkillsLogos/html-5-logo-svgrepo-com.svg";
 import CSS from "../../../assets/SkillsLogos/css-3-logo-svgrepo-com.svg";
 import Bootstrap from "../../../assets/SkillsLogos/bootstrap-4-logo-svgrepo-com.svg";
@@ -64,10 +65,20 @@ export default [
 
 export const MiniProjectsCards = [
   {
+    title: "Fooders",
+    img: FDimg,
+    description:
+      "This a simple app in which you can search for food's name or ingredients to get a list of recipes. You can click on a recipe to show a container with all the ingredients, more details and a button to go to the source page",
+    tech: [HTML, CSS, React],
+    buttons: 2,
+    live: "https://fooders-react.netlify.app/",
+    repository: "https://github.com/RayanEncarnacion/Fooders-React",
+  },
+  {
     title: "Pig Game",
     img: PGimg,
     description:
-      "This a simple game created to showcase knowledge on React using the fundamentals of state managment using Context for global states, useState to manage local state and useEffect to manage side effects.",
+      "This is my first project build with React. A simple game created to showcase knowledge on React using the fundamentals of state managment using Context for global states, useState to manage local state and useEffect to manage side effects.",
     tech: [HTML, CSS, React],
     buttons: 2,
     live: "https://rayan-pig-game.netlify.app/",
