@@ -5,7 +5,7 @@ import PGimg from "../../../assets/images/pig-game-lg-1.png";
 import DHimg from "../../../assets/images/dreamed-lg-1.png";
 import TDimg from "../../../assets/images/todo-lg-1.png";
 import FDimg from "../../../assets/images/fooders-lg-1.png";
-// import Vimg from "../../../assets/images/validation-lg-1.png";
+import Vimg from "../../../assets/images/validation-lg-1.png";
 import HTML from "../../../assets/SkillsLogos/html-5-logo-svgrepo-com.svg";
 import CSS from "../../../assets/SkillsLogos/css-3-logo-svgrepo-com.svg";
 import Bootstrap from "../../../assets/SkillsLogos/bootstrap-4-logo-svgrepo-com.svg";
@@ -21,7 +21,7 @@ import React from "../../../assets/SkillsLogos/react-logo-svgrepo-com.svg";
 import StyledComponents from "../../../assets/SkillsLogos/styled-svgrepo-com.svg";
 import Leaflet from "../../../assets/SkillsLogos/leaflet-1-logo-svg-vector.svg";
 
-export default [
+export const projectsDetails = [
   {
     title: "Move Scheduler",
     img: MSimg,
@@ -64,7 +64,7 @@ export default [
   },
 ];
 
-export const MiniProjectsCards = [
+export const miniProjectsDetails = [
   {
     title: "Fooders",
     img: FDimg,
@@ -87,7 +87,7 @@ export const MiniProjectsCards = [
   },
   {
     title: "Form Validation",
-    img: PGimg,
+    img: Vimg,
     description:
       "This is just a practice project to validate data provided by the user trough a form while maintaining a nice UX using yup (library) and useForm (Hook).",
     tech: [HTML, CSS, React],

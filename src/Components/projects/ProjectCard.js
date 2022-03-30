@@ -1,12 +1,10 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import AccentAnchor from "../../UI/AccentAnchor";
 import StyledProjectCard from "./Styled/StyledProjectCard";
 
 const ProjectCard = ({
   project: { title, img, description, live, repository, tech, buttons },
 }) => {
-  const [isHover, setIsHover] = useState(false);
-
   // Buttons placeholder
   let btns;
 

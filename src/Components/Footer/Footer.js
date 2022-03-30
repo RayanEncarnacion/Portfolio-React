@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styled from "styled-components";
 import LinksList from "../../UI/LinksList";
 import StyledSectionWrapper from "../../UI/Styled/StyledSectionWrapper";
-import FOOTER_LINKS from "./FooterLinks";
+import FOOTER_LINKS from "./footerLinks";
 
 const StyledFooter = styled(StyledSectionWrapper)`
   & .footer-icons {

@@ -1,4 +1,4 @@
-export default [
+const linksArray = [
   {
     text: "Home",
     href: "#home",
@@ -16,3 +16,5 @@ export default [
     id: Math.random(),
   },
 ];
+
+export default linksArray;

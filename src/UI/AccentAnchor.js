@@ -1,4 +1,3 @@
-import { useState } from "react";
 import StyledAccentAnchor from "./Styled/StyledAccentAnchor";
 
 const AccentAnchor = ({
@@ -11,8 +10,6 @@ const AccentAnchor = ({
   rel,
   target,
 }) => {
-  const [isHover, setIsHover] = useState(false);
-
   return (
     <StyledAccentAnchor
       as={as || ""}

@@ -1,8 +1,7 @@
 import SectionWrapper from "../../UI/SectionWrapper";
 import CardsContainer from "./CardsContainer";
 import MiniProjectsContainer from "./Styled/MiniProjectsContainer";
-import ProjectCards from "./Cards/CARDS";
-import { MiniProjectsCards } from "./Cards/CARDS";
+import { projectsDetails, miniProjectsDetails } from "./Cards/cards";
 
 const Projects = () => {
   return (
@@ -14,11 +13,11 @@ const Projects = () => {
     >
       <p className="accent">Main Projects</p>
       <h3>See my projects Live or the Code Repository</h3>
-      <CardsContainer cards={ProjectCards} />
+      <CardsContainer cards={projectsDetails} />
       <MiniProjectsContainer>
         <p className="accent">Other Projects</p>
         <h3>See my projects Live or the Code Repository</h3>
-        <CardsContainer mini={true} cards={MiniProjectsCards} />
+        <CardsContainer mini={true} cards={miniProjectsDetails} />
       </MiniProjectsContainer>
     </SectionWrapper>
   );

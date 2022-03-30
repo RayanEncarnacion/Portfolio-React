@@ -1,6 +1,6 @@
 import CV from "../../assets/RayanEncarnaciónResume.pdf";
 
-export default [
+const navigationLinks = [
   {
     text: "About Me",
     href: "#about",
@@ -23,3 +23,5 @@ export default [
     id: Math.random(),
   },
 ];
+
+export default navigationLinks;

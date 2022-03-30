@@ -1,4 +1,3 @@
-import { useState } from "react";
 import env from "react-dotenv";
 import AccentAnchor from "../../UI/AccentAnchor";
 import SectionWrapper from "../../UI/SectionWrapper";

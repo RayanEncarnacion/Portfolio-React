@@ -5,12 +5,6 @@ const marginTop = {
   marginTop: "1em",
 };
 
-const smallStyle = {
-  display: "block",
-  fontWeight: "bold",
-  fontSize: "12px",
-};
-
 const Learning = () => {
   return (
     <div style={margin}>
