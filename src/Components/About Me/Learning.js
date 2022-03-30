@@ -1,8 +1,14 @@
-import SQL from "../../assets/SkillsLogos/sql-database-generic-svgrepo-com.svg";
+import ColdFusion from "../../assets/SkillsLogos/coldfusion-logo.png";
 
 const margin = { marginTop: "2em", marginBottom: "1em" };
 const marginTop = {
   marginTop: "1em",
+};
+
+const smallStyle = {
+  display: "block",
+  fontWeight: "bold",
+  fontSize: "12px",
 };
 
 const Learning = () => {
@@ -10,7 +16,9 @@ const Learning = () => {
     <div style={margin}>
       <h4>Learning</h4>
       <div>
-        <img style={marginTop} src={SQL} alt="SQL" />
+        <span className="tooltip">
+          <img style={marginTop} src={ColdFusion} alt="Adobe Cold Fusion" />
+        </span>
       </div>
     </div>
   );
