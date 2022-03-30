@@ -1,7 +1,10 @@
 import SectionWrapper from "../../UI/SectionWrapper";
 import CardsContainer from "./CardsContainer";
 import MiniProjectsContainer from "./Styled/MiniProjectsContainer";
-import { projectsDetails, miniProjectsDetails } from "./Cards/cards";
+import {
+  projectsDetails,
+  miniProjectsDetails,
+} from "./Projects Details/projectsDetails";
 
 const Projects = () => {
   return (
