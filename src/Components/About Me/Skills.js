@@ -10,8 +10,11 @@ import NodeJs from "../../assets/SkillsLogos/nodejs-icon-logo-svgrepo-com.svg";
 import MongoDB from "../../assets/SkillsLogos/mongodb-icon.svg";
 import Mongoose from "../../assets/SkillsLogos/mongoose-logo.png";
 import Git from "../../assets/SkillsLogos/git-icon.svg";
+import MySql from "../../assets/SkillsLogos/cdnlogo.com_mysql.svg";
 
-const mongoosePngStyle = { objectFit: "contain", width: "50px" };
+const mongoosePngStyle = { objectFit: "contain", width: "45px" };
+
+const mySqlStyle = { paddingTop: "5px" };
 
 const Skills = () => {
   return (
@@ -27,6 +30,7 @@ const Skills = () => {
         <img src={React} alt="React" />
         <img src={NodeJs} alt="NodeJs" />
         <img src={MongoDB} alt="MongoSB" />
+        <img src={MySql} style={mySqlStyle} alt="MySql" />
         <img style={mongoosePngStyle} src={Mongoose} alt="Mongoose" />
         <img src={Git} alt="Git" />
       </div>
