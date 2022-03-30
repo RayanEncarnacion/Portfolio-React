@@ -87,7 +87,7 @@ export const MiniProjectsCards = [
   },
   {
     title: "Form Validation",
-    img: Vimg,
+    img: PGimg,
     description:
       "This is just a practice project to validate data provided by the user trough a form while maintaining a nice UX using yup (library) and useForm (Hook).",
     tech: [HTML, CSS, React],
