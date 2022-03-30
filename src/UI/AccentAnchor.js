@@ -11,7 +11,7 @@ const AccentAnchor = ({
   rel,
   target,
 }) => {
-  const [_, setIsHover] = useState(false);
+  const setIsHover = useState(false)[1];
 
   return (
     <StyledAccentAnchor

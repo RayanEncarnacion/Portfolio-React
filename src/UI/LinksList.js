@@ -3,7 +3,7 @@ import AccentAnchor from "./AccentAnchor";
 import StyledLinkList from "./Styled/StyledLinkList";
 
 const LinksList = ({ linksArray, footer, navigation, menu, onClick }) => {
-  const [isHover, setIsHover] = useState(false);
+  const setIsHover = useState(false)[1];
 
   const links = linksArray.map((link) => {
     // Hire me anchor
