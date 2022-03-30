@@ -1,4 +1,4 @@
-const linksArray = [
+const footerLinks = [
   {
     text: "Home",
     href: "#home",
@@ -17,4 +17,4 @@ const linksArray = [
   },
 ];
 
-export default linksArray;
+export default footerLinks;

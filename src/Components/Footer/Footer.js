@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styled from "styled-components";
 import LinksList from "../../UI/LinksList";
 import StyledSectionWrapper from "../../UI/Styled/StyledSectionWrapper";
-import FOOTER_LINKS from "./footerLinks";
+import footerLinks from "./footerLinks";
 
 const StyledFooter = styled(StyledSectionWrapper)`
   & .footer-icons {
@@ -32,7 +32,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
       </div>
-      <LinksList footer={true} linksArray={FOOTER_LINKS} />
+      <LinksList footer={true} linksArray={footerLinks} />
       @2021 Rayan Encarnación
     </StyledFooter>
   );
