@@ -5,7 +5,7 @@ import PGimg from "../../../assets/images/pig-game-lg-1.png";
 import DHimg from "../../../assets/images/dreamed-lg-1.png";
 import TDimg from "../../../assets/images/todo-lg-1.png";
 import FDimg from "../../../assets/images/fooders-lg-1.png";
-import Vimg from "../../../assets/images/validation-lg-1.png";
+// import Vimg from "../../../assets/images/validation-lg-1.png";
 import HTML from "../../../assets/SkillsLogos/html-5-logo-svgrepo-com.svg";
 import CSS from "../../../assets/SkillsLogos/css-3-logo-svgrepo-com.svg";
 import Bootstrap from "../../../assets/SkillsLogos/bootstrap-4-logo-svgrepo-com.svg";
