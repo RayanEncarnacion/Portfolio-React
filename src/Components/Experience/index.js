@@ -1,16 +1,9 @@
 import SectionWrapper from "../../UI/SectionWrapper";
 
-import HTML from "../../assets/SkillsLogos/html-5-logo-svgrepo-com.svg";
-import CSS from "../../assets/SkillsLogos/css-3-logo-svgrepo-com.svg";
-import SASS from "../../assets/SkillsLogos/sass-1.svg";
-import Bootstrap from "../../assets/SkillsLogos/bootstrap-4-logo-svgrepo-com.svg";
 import Tailwind from "../../assets/SkillsLogos/tailwind-svgrepo-com.svg";
 import JavaScript from "../../assets/SkillsLogos/javascript-js-seeklogo.com.svg";
 import React from "../../assets/SkillsLogos/react-logo-svgrepo-com.svg";
 import NodeJs from "../../assets/SkillsLogos/nodejs-icon-logo-svgrepo-com.svg";
-import MongoDB from "../../assets/SkillsLogos/mongodb-icon.svg";
-import Mongoose from "../../assets/SkillsLogos/mongoose-logo.png";
-import Git from "../../assets/SkillsLogos/git-icon.svg";
 import MySql from "../../assets/SkillsLogos/cdnlogo.com_mysql.svg";
 import NextJs from "../../assets/SkillsLogos/nextjs.svg";
 import Typescript from "../../assets/SkillsLogos/typescript.svg";
