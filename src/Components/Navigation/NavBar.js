@@ -1,4 +1,3 @@
-import { useState } from "react";
 import LinksList from "../../UI/LinksList";
 import MenuBtn from "./MenuBtn";
 import StyledNavBar from "./Styled/StyledNavBar";
