@@ -49,8 +49,92 @@ a {
   font-weight: bold;
 }
 
+.menu-btn {
+  display: block;
+}
+
+.nav-links {
+  display: none;
+}
+
+.working-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: 2rem auto;
+  max-width: 1000px;
+  gap: 3rem;
+  text-align: left;
+}
+
+.working-container__job {
+  display: grid;
+  gap: 1rem;
+}
+
+.working-container__job-role {
+ color: #4f83b0;
+  font-weight: bold;
+}
+
+.working-container__job-accomplishments {
+  padding-left: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.working-container__job-accomplishments li::marker {
+  color: #4f83b0;
+}
+
+.working-container__job-technologies {
+  /* margin-top: 1rem; */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+
+.working-container__job-technologies img {
+  height: 30px;
+}
+
+.px-img {
+ height: 40px !important; 
+}
+
+.react-native-text {
+  display: block;
+  color: #4f83b0;
+  font-weight: bold;
+  font-size: x-small;
+  margin-left: 10px;
+}
+
+@media (min-width: 640px) { 
+
+  .menu-btn {
+    display: none;
+  }
+ 
+  .nav-links {
+    display: flex;
+  }
+
+  .working-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
 @media (min-width: 768px) {
   #menu-overlay {
     display: none;
   }
+
+  .working-container {
+    margin-top: 4rem;
+  }
 }
+

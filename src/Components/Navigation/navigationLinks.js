@@ -4,23 +4,23 @@ const navigationLinks = [
   {
     text: "About Me",
     href: "#about",
-    id: Math.random(),
+    id: 1,
   },
   {
     text: "Projects",
     href: "#projects",
-    id: Math.random(),
+    id: 2,
   },
   {
     text: "Download CV",
     href: CV,
-    fileName: "Rayan Encarnación",
-    id: Math.random(),
+    fileName: "Rayan Encarnación Resume",
+    id: 3,
   },
   {
     text: "Hire Me",
     href: "#contact",
-    id: Math.random(),
+    id: 4,
   },
 ];
 

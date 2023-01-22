@@ -1,17 +1,15 @@
-import ColdFusion from "../../assets/SkillsLogos/coldfusion-logo.png";
-
-const margin = { marginTop: "2em", marginBottom: "1em" };
-const marginTop = {
-  marginTop: "1em",
-};
+import React from "../../assets/SkillsLogos/react-logo-svgrepo-com.svg";
 
 const Learning = () => {
   return (
-    <div style={margin}>
+    <div style={{ margin: "2em 0 1em" }}>
       <h4>Learning</h4>
       <div>
         <span className="tooltip">
-          <img style={marginTop} src={ColdFusion} alt="Adobe Cold Fusion" />
+          <img style={{
+            margin: ".5em 0 0 1rem",
+          }} src={React} alt="React Native" />
+          <small className="react-native-text">React Native</small>
         </span>
       </div>
     </div>

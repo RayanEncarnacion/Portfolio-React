@@ -2,8 +2,8 @@ import { useState } from "react";
 import AccentAnchor from "./AccentAnchor";
 import StyledLinkList from "./Styled/StyledLinkList";
 
-const LinksList = ({ linksArray, footer, navigation, menu, onClick }) => {
-  const setIsHover = useState(false)[1];
+const LinksList = ({ linksArray, className, footer, navigation, menu, onClick }) => {
+  const [ setIsHover ] = useState(false);
 
   const links = linksArray.map((link) => {
     // Hire me anchor
@@ -49,7 +49,7 @@ const LinksList = ({ linksArray, footer, navigation, menu, onClick }) => {
   });
 
   return (
-    <StyledLinkList menu={menu} navigation={navigation} footer={footer}>
+    <StyledLinkList {...{ menu, navigation, footer, className }} >
       {links}
     </StyledLinkList>
   );

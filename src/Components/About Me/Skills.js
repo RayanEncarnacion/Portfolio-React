@@ -11,8 +11,11 @@ import MongoDB from "../../assets/SkillsLogos/mongodb-icon.svg";
 import Mongoose from "../../assets/SkillsLogos/mongoose-logo.png";
 import Git from "../../assets/SkillsLogos/git-icon.svg";
 import MySql from "../../assets/SkillsLogos/cdnlogo.com_mysql.svg";
+import Typescript from "../../assets/SkillsLogos/typescript.svg";
+import Nextjs from "../../assets/SkillsLogos/nextjs.svg";
+import Coldfusion from "../../assets/SkillsLogos/coldfusion-logo.png";
 
-const mongoosePngStyle = { objectFit: "contain", width: "45px" };
+const objectFitStyle = { objectFit: "contain", width: "45px" };
 
 const mySqlStyle = { paddingTop: "5px" };
 
@@ -28,10 +31,13 @@ const Skills = () => {
         <img src={Tailwind} alt="Tailwind" />
         <img src={JavaScript} alt="JavaScript" />
         <img src={React} alt="React" />
+        <img style={objectFitStyle} src={Nextjs} alt="Nextjs" />
         <img src={NodeJs} alt="NodeJs" />
+        <img src={Typescript} alt="Typescript" />
+        <img src={Coldfusion} alt="Coldfusion" />
         <img src={MongoDB} alt="MongoSB" />
         <img src={MySql} style={mySqlStyle} alt="MySql" />
-        <img style={mongoosePngStyle} src={Mongoose} alt="Mongoose" />
+        <img style={objectFitStyle} src={Mongoose} alt="Mongoose" />
         <img src={Git} alt="Git" />
       </div>
     </StyledSkills>

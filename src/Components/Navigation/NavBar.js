@@ -5,7 +5,7 @@ import StyledNavBar from "./Styled/StyledNavBar";
 import NAVIGATION_LINKS from "./navigationLinks";
 
 const NavBar = ({ toggle }) => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [ windowWidth, setWindowWidth ] = useState(window.innerWidth);
 
   window.addEventListener("resize", () => {
     if (
@@ -19,8 +19,8 @@ const NavBar = ({ toggle }) => {
   return (
     <StyledNavBar>
       <h1>RE</h1>
-      {windowWidth < 768 && <MenuBtn className="menu-btn" onClick={toggle} />}
-      <LinksList navigation={true} linksArray={NAVIGATION_LINKS} />
+      <MenuBtn className="menu-btn" onClick={toggle} />
+      <LinksList className="nav-links d-none" navigation={true} linksArray={NAVIGATION_LINKS} />
     </StyledNavBar>
   );
 };
